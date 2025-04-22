@@ -23,8 +23,9 @@ function Footer({
     { name: "Animation", icon: faFilm, color: colorPalette.animation },
   ];
 
-  const startAngle = 30; /
+  const startAngle = 30;
   const endAngle = 120; 
+  const radius = 30;
   const stepAngle = (endAngle - startAngle) / (items.length - 1); 
 
   return (
